@@ -14,6 +14,6 @@ public class RpcConfig {
 
     public NettyTransceiver getRpcClient() throws IOException{
         log.info("Setting up RPC client connection.");
-        return new NettyTransceiver(new InetSocketAddress(65110));
+        return new NettyTransceiver(new InetSocketAddress(5000));
     } 
 }
