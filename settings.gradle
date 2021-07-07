@@ -1,0 +1,7 @@
+// rootProject.name = 'users'
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
